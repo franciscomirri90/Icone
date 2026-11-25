@@ -42,7 +42,7 @@ const ICONA_URL = 'https://raw.githubusercontent.com/franciscomirri90/Icone/main
 - `favicon.ico`: 16, 32, 48 e 64 px
 - `soldi-favicon-32.png`, `soldi-favicon-64.png`: solo il simbolo, senza fondo, per la scheda del browser
 
-Uso in Apps Script (`Code.gs` di App_Soldi):
+Uso in Apps Script (`Code.gs` di AppCasa_Soldi):
 
 ```js
 var ICONA_URL = 'https://raw.githubusercontent.com/franciscomirri90/Icone/main/soldi/soldi-favicon-64.png';
