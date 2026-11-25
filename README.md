@@ -34,4 +34,19 @@ const ICONA_URL = 'https://raw.githubusercontent.com/franciscomirri90/Icone/main
 // doGet: .setFaviconUrl(ICONA_URL) sulla pagina dell'app e su quella degli errori
 ```
 
+### soldi/ (SOLDI, budget personale)
+- `soldi-icon.svg`: icona completa (simbolo dell'euro: arco verde del disponibile, barre blu e corallo come
+  "In arrivo" e "Ancora da spendere" nell'app, su fondo grafite come l'app)
+- `soldi-mark.svg`: solo il simbolo, senza fondo
+- `soldi-icon-32.png`, `-64.png`, `-192.png`, `-512.png`: PNG ricavati dall'SVG
+- `favicon.ico`: 16, 32, 48 e 64 px
+- `soldi-favicon-32.png`, `soldi-favicon-64.png`: solo il simbolo, senza fondo, per la scheda del browser
+
+Uso in Apps Script (`Code.gs` di App_Soldi):
+
+```js
+var ICONA_URL = 'https://raw.githubusercontent.com/franciscomirri90/Icone/main/soldi/soldi-favicon-64.png';
+// doGet: .setFaviconUrl(ICONA_URL)
+```
+
 Non rinominare né spostare i file usati dalle app: l'URL è scritto nel loro codice.
