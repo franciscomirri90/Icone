@@ -49,4 +49,17 @@ var ICONA_URL = 'https://raw.githubusercontent.com/franciscomirri90/Icone/main/s
 // doGet: .setFaviconUrl(ICONA_URL)
 ```
 
+### colloqui/ (Colloqui 1 a 1)
+- `colloqui-icon.svg`: icona completa (due fumetti affiancati, blu e verde, ognuno con un 1: il colloquio 1 a 1, su fondo grafite come l'app)
+- `colloqui-mark.svg`: solo i due fumetti, senza fondo
+- `colloqui-icon-32.png`, `-64.png`, `-192.png`, `-512.png`: PNG ricavati dall'SVG
+- `favicon.ico`: 16, 32, 48 e 64 px
+- `colloqui-favicon-32.png`, `colloqui-favicon-64.png`: solo i fumetti, senza fondo, per la scheda del browser
+
+Uso nell'HTML (app Tipo B, nel `<head>` di `src/Colloqui_1a1_VNN.html` di App-Colloqui1a1):
+
+```html
+<link rel="icon" type="image/png" href="https://raw.githubusercontent.com/franciscomirri90/Icone/main/colloqui/colloqui-favicon-64.png">
+```
+
 Non rinominare né spostare i file usati dalle app: l'URL è scritto nel loro codice.
